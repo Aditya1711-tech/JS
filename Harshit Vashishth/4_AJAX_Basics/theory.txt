@@ -1,0 +1,19 @@
+AJAX : Asynchronous JavaScript and XML
+
+HTTP protocol is used in communication between server and client
+
+HTTP request is a set of "Web development technologis"
+used to create Asynchronous web applications
+
+Using AJAX web apps can send and retrive data from 
+server Asynchronously (in background)
+withoput interfering with the display and
+behaviour of existing page
+
+We don't use data in XML anymore 
+We use in JSON
+
+Ther are 3 most common ways to create and send request to server
+1. xmlHTTPRequest (Old Way)
+2. fetch API (New way of doing it)
+3. axios (Third party library)
