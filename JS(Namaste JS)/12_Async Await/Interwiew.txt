@@ -1,0 +1,13 @@
+1. What is async-await ??
+ans: aasync is a key word which makes a function async, This async function is use to handle promises
+     inside it.
+     Await is keyword used inside async function.
+     Bith together used to handle promises by making Js asynchronous.
+     And then explain with some example.
+
+Syntactical sugar
+
+2. async/await vs .then()/.catch()
+ans: This async-await is just a "syntactical sugar" over .then()/.catch(). Code inside async function 
+     is treated with .then()/.catch() by JS under the hood.
+     So both are same, both are batter, No one is batter than other.
