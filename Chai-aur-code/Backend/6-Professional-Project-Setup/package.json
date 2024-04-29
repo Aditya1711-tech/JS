@@ -1,0 +1,23 @@
+{
+  "name": "6-professional-project-setup",
+  "version": "1.0.0",
+  "description": "This is a ideal example of professional backend project by Hitesg Chaudhry",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "Aditya",
+    "Chai",
+    "sur",
+    "code",
+    "Backend"
+  ],
+  "author": "Aditya Kaneriya",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "prettier": "^3.2.5"
+  }
+}
