@@ -1,0 +1,2 @@
+Change name layout to template
+And then type something into input field and try to navigate from one page to other and see that it will create new state for every rerender, but in the case of layout it will not change state on navigation, it will keep state intact and result into encanced performance .
