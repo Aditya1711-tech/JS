@@ -27,13 +27,27 @@ console.log(jsUser[symb]); // key1
 */
 
 /*--------- Adding functions to object ------------*/
+/* 
 jsUser.greeting = function () {
   console.log(`Hello ${this.name}`);
 };
-
 jsUser.greeting();
+*/
 
 /*------------ Freeze any object ---------------*/
+/*
 Object.freeze(jsUser);
 jsUser.name = "Poojan";
 console.log(jsUser); // It will print object with old name
+*/
+
+const data = {
+  user: "Aditya",
+  age: 21,
+};
+
+const getData = () => {
+  const { user, age } = data;
+  console.log(`Age of ${user} is ${age}`);
+};
+getData();
