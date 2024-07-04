@@ -1,5 +1,5 @@
 /*
-Async function always return a promise
+Async function always returns a promise
 
 i.e.
 async function hello() {
@@ -18,7 +18,7 @@ async function hello() {
 So this Hello will be wrapped in a promise and returned.
 */
 
-/*------------- Exapmple of returning value from async function ------------*/
+/*------------- Example of returning value from async function ------------*/
 /*
 async function hello() {
     return "Hello";
