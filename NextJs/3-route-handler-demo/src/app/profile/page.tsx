@@ -17,7 +17,6 @@ function ProfilePage() {
       try {
         const response = await axios.get("/profile/api");
         setProfileData(response.data);
-        console.log("Response", response.data);
       } catch (err: any) {
         setError(err);
       } finally {
