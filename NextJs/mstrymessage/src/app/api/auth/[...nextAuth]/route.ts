@@ -50,16 +50,16 @@ export const nethAuthOptions: NextAuthOptions = {
         token._id = user?._id?.toString();
         token.isVerified = user.isVerified;
         token.usernamne = user.username;
-        token.isAcceptingMessages = user.isAcceptinMessages;
+        token.isAcceptingMessages = user.isAcceptingMessages;
       }
       return token;
     },
     async session({ session, token }) {
       if (token) {
-        session.user._id = token._id;
-        session.user.isVerified = token.isVerified;
-        session.user.username = token.username;
-        session.user.isAcceptinMessages = token.isAcceptinMessages;
+        session.user._id = token._id as string;
+        session.user.isVerified = token.isVerified as boolean;
+        session.user.username = token.username as string;
+        session.user.isAcceptingMessages = token.isAcceptingMessages as boolean;
       }
       return session;
     },
