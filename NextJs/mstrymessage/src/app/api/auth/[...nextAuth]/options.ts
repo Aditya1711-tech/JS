@@ -4,7 +4,7 @@ import bcryptjs from "bcryptjs";
 import dbConnect from "@/lib/bdConnect";
 import UserModel from "@/model/User";
 
-export const nethAuthOptions: NextAuthOptions = {
+export const authOptions: NextAuthOptions = {
   providers: [
     CredentialsProvider({
       id: "credentials",
